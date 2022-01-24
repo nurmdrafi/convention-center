@@ -31,10 +31,10 @@ ul {
   border-radius: 30px;
 }
 .card-width {
-  width: 300px;
+  width: 295px;
   margin: 0 auto;
 }
-.card-shaow {
+.card-shadow {
   box-shadow: 0px 20px 20px 5px rgba(126, 122, 207, 0.404);
 }
 
@@ -54,7 +54,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-color: #0B0D17;  
+  background-color: black;  
 }
 .custom-form{
   background-image: url("../images/form-bg.jpg");
@@ -68,5 +68,6 @@ ul {
   .offer {
     position: relative;
     bottom: 45px;
+    right: 10px;
   }
 }
