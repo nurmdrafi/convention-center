@@ -37,3 +37,18 @@ ul {
 .card-shaow {
   box-shadow: 0px 20px 20px 5px rgba(126, 122, 207, 0.404);
 }
+
+.offer-tag {
+  position: absolute;
+  top: -15px;
+  right: 30px;
+  background-color: #ff4e4e;
+  padding: 5px 7px;
+  border-radius: 30px;
+}
+@media (min-width: 1200px) {
+  .offer {
+    position: relative;
+    bottom: 40px;
+  }
+}
