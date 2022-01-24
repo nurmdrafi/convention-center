@@ -54,8 +54,8 @@
     <main>
 
         <!-- Slider Section -->
-        <section class="">
-            <div class="container-fluid">
+        <section>
+            <div class="container-fluid p-0">
                 <div id="carouselExampleDark" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -169,10 +169,10 @@
                         <div class="col">
                             <div class="card h-75 card-width border-0">
                                 <div class="card-header border-0 bg-transparent">
-                                    <h3>
+                                    <h3 class="fs-1 fw-bold">
                                         $300
                                     </h3>
-                                    <h4>Business fair</h4>
+                                    <h4 class="fs-3 ">Business fair</h4>
                                     <p>For most businesses event <br> like book fair, craft fair.</p>
                                 </div>
                                 <div class="card-body">
@@ -209,18 +209,19 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="card-footer bg-transparent border-0 w-75 mx-auto p-0">
-                                    <button class="btn btn-lg w-100 text-primary bg-pink fs-6">Choose plan</button>
+                                <div class="card-footer bg-transparent border-0 w-100 p-0">
+                                    <button class="btn btn-lg w-75 border-radious text-primary bg-pink fs-6">Choose
+                                        plan</button>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card h-75 card-width border-0">
                                 <div class="card-header border-0 bg-transparent">
-                                    <h3>
+                                    <h3 class="fs-1 fw-bold">
                                         $500
                                     </h3>
-                                    <h4>Wedding basic</h4>
+                                    <h4 class="fs-3">Wedding basic</h4>
                                     <p>For wedding with basic plan <br> and limited item.</p>
                                 </div>
                                 <div class="card-body">
@@ -257,8 +258,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="card-footer bg-transparent border-0 p-0 w-75 mx-auto">
-                                    <button class="btn btn-lg w-100 text-primary bg-pink fs-6">Choose plan</button>
+                                <div class="card-footer bg-transparent border-0 p-0 w-100">
+                                    <button class="btn btn-lg w-75 border-radious text-primary bg-pink fs-6">Choose
+                                        plan</button>
                                 </div>
                             </div>
                         </div>
@@ -268,10 +270,10 @@
                                     class="card offer h-75 card-width bg-primary bg-opacity-75 border-0 border-radious p-3 card-shaow">
                                     <div class="card-header bg-transparent border-0">
                                         <span class="offer-tag">Hot 🔥</span>
-                                        <h3>
+                                        <h3 class="fs-1 fw-bold">
                                             $800
                                         </h3>
-                                        <h4>Wedding plus</h4>
+                                        <h4 class="fs-3">Wedding plus</h4>
                                         <p>For most wedding with <br> premium plans.</p>
                                     </div>
                                     <div class="card-body border-0 bg-transparent">
@@ -309,7 +311,9 @@
                                         </ul>
                                     </div>
                                     <div class="card-footer border-0 bg-transparent p-0 w-75 mx-auto">
-                                        <button class="btn btn-lg w-100 text-primary bg-white fs-6">Choose plan</button>
+                                        <button
+                                            class="btn btn-lg w-100 border-radious text-primary bg-white fs-6">Choose
+                                            plan</button>
                                     </div>
                                 </div>
                             </div>
@@ -317,10 +321,10 @@
                         <div class="col">
                             <div class="card h-75 card-width border-0 bg-transparent">
                                 <div class="card-header border-0 bg-transparent">
-                                    <h3>
+                                    <h3 class="fs-1 fw-bold">
                                         $1200
                                     </h3>
-                                    <h4>Business fair</h4>
+                                    <h4 class="fs-3">Business fair</h4>
                                     <p>For most businesses <br> events.</p>
                                 </div>
                                 <div class="card-body">
@@ -357,8 +361,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="card-footer bg-transparent border-0 w-75 mx-auto p-0">
-                                    <button class="btn btn-lg w-100 text-primary bg-pink fs-6">Choose plan</button>
+                                <div class="card-footer bg-transparent border-0 w-100 p-0">
+                                    <button class="btn btn-lg w-75 border-radious text-primary bg-pink fs-6">Choose
+                                        plan</button>
                                 </div>
                             </div>
                         </div>
@@ -499,6 +504,22 @@
                 </div>
             </div>
         </section>
+
+        <!-- Subscription Section -->
+        <section class="custom-form py-5">
+            <div class="container py-5">
+                <p class="text-center fs-4 fw-bold text-light">Subscribe to get information, latest news and other <br> interesting
+                    offers
+                    about RAOWA CONVENTION CENTER.</p>
+                <form class="d-flex justify-content-center">
+                    <div class="input-group input-group-lg form-width">
+                        <span class="input-group-text"><img src="images/icons/mail.svg" alt="" width="15px"></span>
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                        <button type="button" class="btn btn-outline-light">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
     <!-- Footer Section -->
     <footer class="footer">
@@ -513,8 +534,10 @@
                     <div class="d-flex justify-content-center justify-content-md-end">
                         <div class="d-flex flex-column align-items-center ">
                             <span class="text-white my-3">Get the App</span>
-                            <img src="images/apple-store.png" alt="" class="mb-3" width="135px">
-                            <img src="images/play-store.png" alt="" class="mb-3" width="135px">
+                            <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp"
+                                target="_blank"><img src="images/apple-store.png" alt="" class="mb-3" width="135px"></a>
+                            <a href="https://play.google.com/store/apps/details?id=learn.programming.courses"
+                                target="_blank"><img src="images/play-store.png" alt="" class="mb-3" width="135px"></a>
                         </div>
                     </div>
                 </div>

@@ -46,17 +46,27 @@ ul {
   padding: 5px 7px;
   border-radius: 30px;
 }
+.form-width {
+  max-width: 600px;
+}
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-color: #0B0D17;
-  
+  background-color: #0B0D17;  
+}
+.custom-form{
+  background-image: url("../images/form-bg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.411);
+  background-blend-mode: overlay;
 }
 @media (min-width: 1200px) {
   .offer {
     position: relative;
-    bottom: 40px;
+    bottom: 45px;
   }
 }
