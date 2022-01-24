@@ -6,13 +6,27 @@ body {
 }
 
 .img-center {
-    width: 100vw;
-    height: 90vh;
-    object-fit: cover;
-    object-position: center;
+  width: 100vw;
+  height: 90vh;
+  object-fit: cover;
+  object-position: center;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    width: 50px;
-    height: 50px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+.bg-pink {
+  background-color: #f496d22d;
+}
+.fas{
+  font-size: 14px;
+}
+.border-radious{
+  border-radius: 30px;
 }
